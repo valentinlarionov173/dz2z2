@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int InitAmount = 100;
-        int TopUpSum = 1100;
+        int initAmount = 100;
+        int topUpSum = 1100;
 
-        int BonusRuble;
-        if (TopUpSum > 1000) {
-            BonusRuble = TopUpSum / 100;
+        int bonusRuble;
+        if (topUpSum > 1000) {
+            bonusRuble = topUpSum / 100;
         } else {
-            BonusRuble = 11;
+            bonusRuble = 11;
         }
-        int FinalAmount = InitAmount + TopUpSum + BonusRuble;
+        int finalAmount = initAmount + topUpSum + bonusRuble;
 
-        System.out.println("Итоговый счёт:" + FinalAmount);
-        System.out.println("Количество бонусных рублей:" + BonusRuble);
+        System.out.println("Итоговый счёт:" + finalAmount);
+        System.out.println("Количество бонусных рублей:" + bonusRuble);
     }
 }
